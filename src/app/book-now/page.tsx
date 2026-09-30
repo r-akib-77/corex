@@ -11,6 +11,7 @@ import {
   ArrowRight,
   Smartphone,
 } from "lucide-react";
+import Image from "next/image";
 
 type Slot = {
   time: string;
@@ -1123,9 +1124,11 @@ export default function BookingPage() {
                       {/* bKash Logo */}
 
                       <div className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-xl bg-white p-1.5">
-                        <img
+                        <Image
                           src="/bkash-logo.webp"
                           alt="bKash"
+                          width={40}
+                          height={40}
                           className="h-full w-full object-contain"
                         />
                       </div>

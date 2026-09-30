@@ -77,8 +77,8 @@ export default function LocationSection() {
             </h3>
 
             <p className="mt-5 font-[family-name:var(--font-inter)] text-sm leading-7 text-white/45 sm:text-base">
-              Whether you're playing a competitive match, training with your
-              team, or just looking for a place to enjoy football, CoreX is
+              Whether you&rsquo;re playing a competitive match, training with
+              your team, or just looking for a place to enjoy football, CoreX is
               ready for you.
             </p>
 
